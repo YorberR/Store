@@ -1,6 +1,7 @@
 import React from "react";
-import OrderItem from "../components/OrderItem";
-import '../styles/Orders.scss'
+import OrderItem from "@components/OrderItem";
+import '@styles/Orders.scss'
+import arrow from '@icons/flechita.svg';
 
 const Orders = () => {
     return (
@@ -14,7 +15,7 @@ const Orders = () => {
                             <span>6 articles</span>
                         </p>
                         <p>$560.00</p>
-                        <img src="./icons/flechita.svg" alt="arrow" />
+                        <img src={arrow} alt="arrow" />
                     </div>
                     <div className="order">
                         <p>
@@ -22,7 +23,7 @@ const Orders = () => {
                             <span>6 articles</span>
                         </p>
                         <p>$560.00</p>
-                        <img src="./icons/flechita.svg" alt="arrow" />
+                        <img src={arrow} alt="arrow" />
                     </div>
                     <div className="order">
                         <p>
@@ -30,7 +31,7 @@ const Orders = () => {
                             <span>6 articles</span>
                         </p>
                         <p>$560.00</p>
-                        <img src="./icons/flechita.svg" alt="arrow" />
+                        <img src={arrow} alt="arrow" />
                     </div>
                     <div className="order">
                         <p>
@@ -38,7 +39,7 @@ const Orders = () => {
                             <span>6 articles</span>
                         </p>
                         <p>$560.00</p>
-                        <img src="./icons/flechita.svg" alt="arrow" />
+                        <img src={arrow} alt="arrow" />
                     </div>
                 </div>
             </div>
