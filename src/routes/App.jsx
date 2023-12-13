@@ -11,8 +11,8 @@ import Orders from '@pages/Orders';
 import NotFound from '@pages/NotFound';
 import CreateAccount from '@pages/CreateAccount';
 import SendEmail from '@pages/SendEmail';
-import AppContext from '../context/AppContext';
-import useInitialState from '../hooks/useInitialState';
+import AppContext from '@context/AppContext';
+import useInitialState from '@hooks/useInitialState';
 import '@styles/global.css';
 
 const App = () => {
