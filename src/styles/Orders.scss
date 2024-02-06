@@ -1,25 +1,29 @@
 @import 'vars';
 
-.Order {
-	display: grid;
-	grid-template-columns: auto 1fr auto;
-	gap: 16px;
-	align-items: center;
-	margin-bottom: 12px;
+.OrderItem {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 16px;
+    margin-bottom: 24px;
+    align-items: center;
 }
-.Order p:nth-child(1) {
-	display: flex;
-	flex-direction: column;
+
+.OrderItem figure {
+    margin: 0;
 }
-.Order p span:nth-child(1) {
-	font-size: var(--md);
-	font-weight: bold;
+
+.OrderItem figure img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
 }
-.Order p span:nth-child(2) {
-	font-size: var(--sm);
-	color: var(--very-light-pink);
+
+.OrderItem p:nth-child(2) {
+    color: var(--very-light-pink);
 }
-.Order p:nth-child(2) {
-	text-align: end;
-	font-weight: bold;
+
+.OrderItem p:nth-child(3) {
+    font-size: var(--md);
+    font-weight: bold;
 }

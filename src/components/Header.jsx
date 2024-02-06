@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import '@styles/Header.scss';
+import '../styles/Header.scss';
 import Menu from '@components/Menu.jsx';
 import MyOrder from '@containers/MyOrder';
 import menu from '@icons/icon_menu.svg';
