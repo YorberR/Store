@@ -24,19 +24,19 @@ const Header = () => {
                 <img src={logo} alt="logo" className="nav-logo" />
                 <ul>
                     <li>
-                        <a href="/">All</a>
+                        <a href="/Store">All</a>
                     </li>
                     <li>
-                        <a href="/clothes">Clothes</a>
+                        <a href="/Store">Clothes</a>
                     </li>
                     <li>
-                        <a href="/electronics">Electronics</a>
+                        <a href="/Store">Electronics</a>
                     </li>
                     <li>
-                        <a href="/furnitures">Furnitures</a>
+                        <a href="/Store">Furnitures</a>
                     </li>
                     <li>
-                        <a href="/Shoes">Shoes</a>
+                        <a href="/Store">Shoes</a>
                     </li>
                 </ul>
             </div>

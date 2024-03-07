@@ -13,10 +13,6 @@ import CreateAccount from '../pages/CreateAccount';
 import SendEmail from '../pages/SendEmail';
 import AppContext from '../context/AppContext';
 import useInitialState from '../hooks/useInitialState';
-import Clothes from '../pages/Clothes';
-import Electronics from '../pages/Electronics';
-import Furnitures from '../pages/Furnitures';
-import Shoes from '../pages/Shoes';
 import '../styles/global.css';
 
 const App = () => {
@@ -26,7 +22,7 @@ const App = () => {
 			<BrowserRouter>
 				<Layout>
 					<Routes>
-						<Route path="/" element={<Home />}/>
+						<Route path="/Store" element={<Home />}/>
 						<Route path="/login" element={<Login />} />
 						<Route path="/recovery-password" element={<RecoveryPassword />} />
 						<Route path='/send-email' element={<SendEmail />}/>
@@ -36,10 +32,6 @@ const App = () => {
 						<Route path='/checkout' element={<Checkout />}/>
 						<Route path='/orders' element={<Orders />}/>
 						<Route path='*' element={<NotFound />} />
-						<Route path="/clothes" element={< Clothes/>}/>
-						<Route path="/electronics" element={< Electronics/>}/>
-						<Route path="/furnitures" element={< Furnitures/>}/>
-						<Route path="/shoes" element={< Shoes/>}/>
 					</Routes>
 				</Layout>
 			</BrowserRouter>
