@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Store/static/css/main.cca5252f.css",
-    "main.js": "/Store/static/js/main.8fca4454.js",
+    "main.js": "/Store/static/js/main.8eb8d3e9.js",
     "static/media/logo_yard_sale.svg": "/Store/static/media/logo_yard_sale.6d98da71f7a1ec368eab5160ecc06909.svg",
     "static/media/bt_add_to_cart.svg": "/Store/static/media/bt_add_to_cart.d6e969538a58d48c9495247caf64324d.svg",
     "static/media/icon_shopping_cart.svg": "/Store/static/media/icon_shopping_cart.995748b73b8792b4b60fd1ed0515faaa.svg",
@@ -10,10 +10,10 @@
     "index.html": "/Store/index.html",
     "static/media/flechita.svg": "/Store/static/media/flechita.5634ade2a3a788cac60b3d06a4242587.svg",
     "main.cca5252f.css.map": "/Store/static/css/main.cca5252f.css.map",
-    "main.8fca4454.js.map": "/Store/static/js/main.8fca4454.js.map"
+    "main.8eb8d3e9.js.map": "/Store/static/js/main.8eb8d3e9.js.map"
   },
   "entrypoints": [
     "static/css/main.cca5252f.css",
-    "static/js/main.8fca4454.js"
+    "static/js/main.8eb8d3e9.js"
   ]
 }
