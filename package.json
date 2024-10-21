@@ -42,7 +42,7 @@
   "homepage": "https:///YorberR.github.io/Store",
   "devDependencies": {
     "css-loader": "^6.7.3",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^6.2.0",
     "mini-css-extract-plugin": "^2.7.2",
     "sass": "^1.58.3",
     "sass-loader": "^13.2.0",
