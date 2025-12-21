@@ -1,5 +1,4 @@
 import React from "react";
-import OrderItem from "../components/OrderItem";
 import '../styles/Orders.scss'
 import arrow from '../assets/icons/flechita.svg';
 
